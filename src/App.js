@@ -1,23 +1,11 @@
 import logo from './logo.svg';
-import './App.css';
+import TableExample from './TableExample';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload. The template was created 2021-12-05 with command "npx create-react-app react_template".
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TableExample/>
     </div>
   );
 }
